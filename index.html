@@ -22,6 +22,7 @@
 
 <body>
     <div class="container">
+        <!-- START SIDEBAR -->
         <div class="sidebar">
             <div class="brand">
                 <div class="logo">
@@ -32,13 +33,74 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">
+                    <li class="active"><a href="#">
                             <ion-icon name="home-outline"></ion-icon>
                             Home
-                        </a></li>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="trophy-outline"></ion-icon>
+                            Projects
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="card-outline"></ion-icon>
+                            Billings
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="person-outline"></ion-icon>
+                            Team Members
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="bar-chart-outline"></ion-icon>
+                            Stats
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <ion-icon name="settings-outline">
+                            </ion-icon>
+                            Settings
+                        </a>
+                    </li>
                 </ul>
             </nav>
+
+            <div class="profile-area">
+                <div class="profile">
+                    <div class="avatar">
+                        <img src="/assets/images/profile.jpg" alt="profile">
+                        <span class="status"></span>
+                    </div>
+                    <h5>David Millan</h5>
+                </div>
+            </div>
         </div>
+        <!-- END SIDEBAR -->
+
+        <!-- START MAIN -->
+
+        <div class="main-content">
+            <!-- Search Bar -->
+            <div class="search-wrapper">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" placeholder="Search for stats">
+            </div>
+
+            <!-- Header -->
+            <div class="header-wrapper">
+                <div class="head-info">
+                    <h3>Hello David</h3>
+                    <p>Welcome Back!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- END MAIN -->
+
+
     </div>
 
     <!-- IONICONS -->
